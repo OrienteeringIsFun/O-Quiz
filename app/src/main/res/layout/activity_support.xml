@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context=".SupportActivity">
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="#FFFFFF"
+        android:layout_alignParentLeft="true"
+        tools:ignore="MissingConstraints">
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:paddingBottom="20dp"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout_editor_absoluteX="0dp">
+
+        <TextView
+            android:id="@+id/support_text"
+            android:textAlignment="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Hi, nice to meet you.\n\n
+            I am missing some photos for the following symbols:\n\n
+            102,Index contour,Zählkurve\n
+            103,Form line,Formlinie\n
+            105,Earth wall,Erdwall\n
+            106,Ruined earth wall,Verfallener Erdwall\n
+            108,Small erosion gully,Kleiner Graben\n
+            110,Small elongated knoll,Längliche Kuppe\n
+            111,Small depression,Kleine Senke\n
+            202,Cliff,Fels\n
+            203,Rocky pit or cave,Felsloch oder Höhle\n
+            309,Narrow marsh,Schmaler Sumpfstreifen\n
+            310,Indistinct marsh,Undeutlicher Sumpf\n
+            404,Rough open land with scattered trees,Raues offenes Gebiet mit einzelnen Bäumen\n
+            406,Vegetation, slow running,Vegetation, leichte Laufbehinderung\n
+        408,Vegetation, walk,Vegetation, starke Laufbehinderung\n
+        409,Vegetation, walk, good visibility,Bodenvegetation, starke Laufbehinderung, gute Sicht\n
+        410,Vegetation, fight,Vegetation, sehr starke Laufbehinderung\n
+        413,Orchard,Obstgarten\n
+        414,Vineyard or simila\nr,Rebberg oder Ähnliches\n
+        418,Prominent bush or tree,Markanter Busch oder Baum\n
+        501,Paved area,Befestigte Fläche\n
+        506,Small footpath,Pfad\n
+        520,Area that shall not be entered,Verbotenes Gebiet\n
+        522,Canopy,Überdachung\n
+        528,Prominent line feature,Markantes Linienobjekt\n
+        529,Prominent impassable line feature,Markantes unpassierbares Linienobjekt\n
+        530,Prominent man-made feature – ring,Markantes künstliches Objekt - Kreis\n
+        602,Registration mark,Passkreuze\n
+        603,Spot height,Höhenkote\n
+        701,Start,Startpunkt\n
+        702,Map issue point,Kartenabgabe\n
+        703,Control point,Posten\n
+        704,Control number,Postennummer\n
+        705,Course line,Verbindungslinie\n
+        706,Finish,Ziel\n
+        707,Marked route,Markierte Strecke\n
+        708,Out-of-bounds boundary,Unpassierbare Begrenzung\n
+        709,Out-of-bounds area,Sperrgebiet\n
+        711,Out-of-bounds route,Verbotene Strecke\n
+        713,Refreshment point,Verpﬂegungsposten\n\n
+        If you have some of those, please upload them to pixabay.com and send an email with the link to m@ol.tc.\n
+            Thank you!"
+            android:textColor="#000000"
+            tools:layout_editor_absoluteX="0dp"
+            tools:layout_editor_absoluteY="241dp" />
+
+        <TextView
+            android:id="@+id/oom_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp"
+            android:text="Thanks to OOM &lt;3\n"
+            android:textColor="#000000"
+            tools:layout_editor_absoluteX="0dp"
+            tools:layout_editor_absoluteY="241dp" />
+
+        <ImageView
+            android:id="@+id/oom_image"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            app:srcCompat="@drawable/open_orienteering" />
+    </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

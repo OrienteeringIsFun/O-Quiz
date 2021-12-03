@@ -1,0 +1,118 @@
+ID,Name,Name German
+1,Landforms,Geländeformen
+101,Contour,Höhenkurve
+102,Index contour,Zählkurve
+103,Form line,Formlinie
+104,Earth bank,Erdböschung
+105,Earth wall,Erdwall
+106,Ruined earth wall,Verfallener Erdwall
+107,Erosion gully,Graben
+108,Small erosion gully,Kleiner Graben
+109,Small knoll,Kuppe
+110,Small elongated knoll,Längliche Kuppe
+111,Small depression,Kleine Senke
+112,Pit,Grube oder Loch
+113,Broken ground,Kleinkupiertes Gelände
+114,Very broken ground,Stark kleinkupiertes Gelände
+115,Prominent landform feature,Markantes Geländeobjekt
+2,Rock and boulders,Felsen und Steine
+201,Impassable cliff,Unpassierbare Felswand
+202,Cliff,Fels
+203,Rocky pit or cave,Felsloch oder Höhle
+204,Boulder,Stein
+205,Large boulder,Grosser Stein
+206,Gigantic boulder,Sehr grosser Stein
+207,Boulder cluster,Steingruppe
+208,Boulder field,Blockfeld
+209,Dense boulder field,Dichtes Blockfeld
+210,"Stony ground, slow running","Steiniger Boden, leichte Laufbehinderung"
+211,"Stony ground, walk","Steiniger Boden, schwere Laufbehinderung"
+212,"Stony ground, fight","Steiniger Boden, sehr schwere Laufbehinderung"
+213,Sandy ground,Sandiger Boden
+214,Bare rock,Nackte Felsplatte
+215,Trench,Schützengraben oder Felsspalte
+3,Water and marsh,Gewässer und Sümpfe
+301,Uncrossable body of water,Unpassierbares Gewässer
+302,Shallow body of water,Seichtes Gewässer
+303,Waterhole,Wasserloch
+304,Crossable watercourse,Passierbarer Wasserlauf
+305,Small crossable watercourse,Passierbarer kleiner Wasserlauf
+306,Minor/seasonal water channel,Kleiner/Saisonaler Wassergraben
+307,Uncrossable marsh,Unpassierbarer Sumpf
+308,Marsh,Sumpf
+309,Narrow marsh,Schmaler Sumpfstreifen
+310,Indistinct marsh,Undeutlicher Sumpf
+311,"Well, fountain or water tank",Brunnen oder Springbrunnen
+312,Spring,Quelle
+313,Prominent water feature,Markantes besonderes Gewässerobjekt
+4,Vegetation,Vegetation
+401,Open land,Offenes Gebiet
+402,Open land with scattered trees,Offenes Gebiet mit einzelnen Bäumen
+403,Rough open land,Raues offenes Gebiet
+404,Rough open land with scattered trees,Raues offenes Gebiet mit einzelnen Bäumen
+405,Forest,Wald
+406,"Vegetation, slow running","Vegetation, leichte Laufbehinderung"
+407,"Vegetation, slow running, good visibility","Bodenvegetation, leichte Laufbehinderung, gute Sicht"
+408,"Vegetation, walk","Vegetation, starke Laufbehinderung"
+409,"Vegetation, walk, good visibility","Bodenvegetation, starke Laufbehinderung, gute Sicht"
+410,"Vegetation, fight","Vegetation, sehr starke Laufbehinderung"
+411,"Vegetation, impassable","Vegetation, unpassierbar"
+412,Cultivated land,Kulturland
+413,Orchard,Obstgarten
+414,Vineyard or similar,Rebberg oder Ähnliches
+415,Distinct cultivation boundary,Deutliche Kulturgrenze
+416,Distinct vegetation boundary,Deutliche Vegetationsgrenze
+417,Prominent large tree,Markanter grosser Baum
+418,Prominent bush or tree,Markanter Busch oder Baum
+419,Prominent vegetation feature,Besonderes Vegetationsobjekt
+5,Man-made features,Künstliche Objekte
+501,Paved area,Befestigte Fläche
+502,Wide road,Breite Strasse
+503,Road,Fahrweg
+504,Vehicle track,Karrweg
+505,Footpath,Fussweg
+506,Small footpath,Pfad
+507,Less distinct small footpath,Undeutlicher Pfad
+508,Narrow ride or linear trace through the terrain,Schmale Schneise oder eine lineare Spur im Gelände
+509,Railway,Bahngeleise
+510,"Power line, cableway or skilift","Stromleitung, Seilbahn oder Skilift"
+511,Major power line,Überlandleitung
+512,Bridge / tunnel,"Brücke, Tunnel"
+513,Wall,Mauer
+514,Ruined wall,Verfallene Mauer
+515,Impassable wall,Unpassierbare Mauer
+516,Fence,Zaun
+517,Ruined fence,Verfallener Zaun
+518,Impassable fence,Unpassierbarer Zaun
+519,Crossing point,Durchgang
+520,Area that shall not be entered,Verbotenes Gebiet
+521,Building,Gebäude
+522,Canopy,Überdachung
+523,Ruin,Ruine
+524,High tower,Hoher Turm
+525,Small tower,Kleiner Turm
+526,Cairn,Steinhaufen oder Grenzstein
+527,Fodder rack,Futterkrippe
+528,Prominent line feature,Markantes Linienobjekt
+529,Prominent impassable line feature,Markantes unpassierbares Linienobjekt
+530,Prominent man-made feature – ring,Markantes künstliches Objekt - Kreis
+531,Prominent man-made feature – x,Markantes künstliches Objekt - x
+532,,Schiessplatz
+6,Technical symbols,Technische Symbole
+601,Magnetic north line,Magnetische Nordlinie
+602,Registration mark,Passkreuze
+603,Spot height,Höhenkote
+7,Overprinting symbols,Bahnsymbole
+701,Start,Startpunkt
+702,Map issue point,Kartenabgabe
+703,Control point,Posten
+704,Control number,Postennummer
+705,Course line,Verbindungslinie
+706,Finish,Ziel
+707,Marked route,Markierte Strecke
+708,Out-of-bounds boundary,Unpassierbare Begrenzung
+709,Out-of-bounds area,Sperrgebiet
+710,Crossing point,Durchgang
+711,Out-of-bounds route,Verbotene Strecke
+712,First aid post,Erste-Hilfe-Station
+713,Refreshment point,Verpﬂegungsposten

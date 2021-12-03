@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:gravity="center"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout_editor_absoluteX="0dp">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hello O-World!"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.391"
+        android:textColor="#000000" />
+
+        <Button
+            android:id="@+id/button_start_quiz"
+            android:layout_width="229dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="60dp"
+            app:icon="@drawable/orienteering"
+            app:iconSize="20dp"
+            android:text="Start Quiz"
+            app:layout_constraintTop_toBottomOf="@+id/textView"
+            tools:layout_editor_absoluteX="144dp" />
+
+        <Button
+            android:id="@+id/button_learn"
+            android:layout_width="229dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="Learn"
+            app:layout_constraintTop_toBottomOf="@+id/textView"
+            tools:layout_editor_absoluteX="144dp" />
+
+        <TextView
+            android:id="@+id/About"
+            android:layout_width="354dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:text="Welcome to the O-Symbol Quiz!\n\n The app was created by \nMoritz Brettschneider.\n Contact: m@ol.tc\n\nVersion 0.1"
+            android:textAlignment="center"
+            android:textColor="#000000"
+            app:layout_constraintTop_toBottomOf="@+id/start_quiz"
+            tools:layout_editor_absoluteX="105dp" />
+
+        <Button
+            android:id="@+id/button_support"
+            android:layout_width="229dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:text="Support"
+            app:layout_constraintTop_toBottomOf="@+id/textView"
+            tools:layout_editor_absoluteX="144dp" />
+
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
